@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<form action="/action_page.php">
+
+<table>
+<tr>
+<th colspan = "4">About -- 110306001 </th>
+</tr>
+  
+<tr>
+<td rowspan = "3">
+  <img src = "Shiba_inu_taiki.jpg" width = "205 height = "100" > <br> personal photo
+</td>
+
+<td colspan = "4"> 
+<label> Name: 
+<input name = "name" type = "text" size = "25" maxlength = "30">
+</label>
+<br>
+
+<label> Gender:</label>
+<input type = "radio" name="gender" value = "male"> Male
+<input type = "radio" name="gender" value = "female"> Female
+<input type = "radio" name="gender" value = "other"> Other
+ </td>
+</tr>
+
+ 
+<tr>
+
+<td colspan = "2"> <label> Country: </label>
+
+<select country = "place">
+<option value = "Taipei" > Taipei </option>
+  
+<option value = "Tainan" > Tainan </option>
+  
+<option value = "Taichung" > Taichung </option>
+
+<option value = "Taoyuan" > Taoyuan </option>
+  </select> 
+</td>
+
+<td>  
+<div>
+    <label for="bday">Birthday: </label>
+    <input type="date" id="bday" name="bday">
+  </div>
+  </td>
+</tr>
+
+<tr>
+<td colspan = "4"><label> E-mail:
+<input email = "email" type = "text" size = "25" maxlength = "30">
+</label>
+</td>
+ </tr>
+
+ 
+<tr>
+<td> Hobby </td>
+<td colspan = "4">  
+
+  <input type="checkbox" name="hobby1" value="swimming" >
+  <label for="hobby1"> Swimming</label> 
+  
+  <input type="checkbox" name="hobby2" value="vollyeball" >
+  <label for="hobby2"> Vollyeball</label> 
+  
+  <input type="checkbox" name="hobby3" value="movie" >
+  <label for="hobby3"> Movie</label> 
+  
+  <input type="checkbox" name="hobby4" value="game" >
+  <label for="hobby4"> Game</label> 
+  
+  <input type="checkbox" name="hobby5" value="sleep" >
+  <label for="hobby5"> Sleep </label> 
+</td>
+</tr>
+
+<tr>
+<td> Skill </td>
+<td colspan = "4"> 
+
+<input type="checkbox" name="skill1" value="java" >
+  <label for="skill1"> Java</label> 
+  
+  <input type="checkbox" name="skill2" value="html" >
+  <label for="skill2"> HTML</label> 
+  
+  <input type="checkbox" name="skill3" value="python" >
+  <label for="skil3"> Python</label> 
+  
+  <input type="checkbox" name="skill4" value="microsoft office" >
+  <label for="skill4"> Microsoft Office </label> 
+  
+  <input type="checkbox" name="skill5" value="premiere" >
+  <label for="skill5"> Premiere </label> 
+</td>
+</tr>
+
+<tr>
+<td> Say something </td>
+<br>
+<td colspan = "3">
+<textarea rows = "4" cols = "50"> Say something here.
+</textarea>
+</td>
+</tr>
+
+<tr>
+<td colspan = "4">  
+<input type="submit" value="Submit">
+<input type="reset" value="Clear">
+</td>
+</tr>
+  
+</table>
+</form>
+
+</body>
+</html>
